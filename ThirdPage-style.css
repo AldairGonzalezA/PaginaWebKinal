@@ -1,0 +1,9 @@
+.menu{
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    opacity: 1;
+    transition: opacity 0,3s;
+}
