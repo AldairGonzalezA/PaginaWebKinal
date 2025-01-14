@@ -7,3 +7,7 @@
     opacity: 1;
     transition: opacity 0,3s;
 }
+
+.barra{
+    margin: 10px;
+}
