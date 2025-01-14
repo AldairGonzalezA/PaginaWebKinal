@@ -1,0 +1,40 @@
+.custom-carousel{ 
+    height: 600px;
+}
+
+.div{
+    margin: 20px;
+}
+
+.carousel-image{
+    height: 600px;
+    width: 1250px;
+}
+
+.custom-img{
+    height: 350px;
+    width: 350px;
+    cursor: pointer;
+    margin: 25px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #28303F;
+    border-radius: 15px;
+}
+
+.nav-custom{
+    height: 40px;
+}
+
+.header-custom{
+    padding: 50px;
+    background-color: #28303F;
+}
+
+.div-custom{
+    background-color: #A58D70;
+}
+
+.custom-modal{
+    background-color: #D8D7DB;
+}
