@@ -11,3 +11,70 @@
 .barra{
     margin: 10px;
 }
+
+.contenedor{
+    display: flex;
+    overflow: hidden;
+
+}
+
+.cartas{
+    margin: 50px;
+    
+}
+
+.contenedor-imagenes{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.contenedor-imagenes2{
+    display: flex;
+    margin: 50px;
+    margin-left: 225px;
+    text-align: center;
+}
+
+.parrafo{
+    text-align: left;
+    font-size: 18px;
+    height: 100px;
+    width: 500px;
+    padding: 50px;
+    margin-right: 300px;
+    padding-top: 10px;
+    
+}
+
+.imagen-deslizar{
+    right: 0;
+    width: 351px;
+    height: 372px;
+    transform: translateX(100%);
+    animation: deslizar 2s ease-in-out forwards;
+    z-index: 10;
+}
+
+.Frase{
+    font-family: 'Roboto Condensed', serif;
+    font-size: large;
+    margin: 40px;
+    padding-left: 30px;
+}
+
+.roboto-condensed- {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@keyframes deslizar {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
