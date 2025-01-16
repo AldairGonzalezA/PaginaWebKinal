@@ -1,5 +1,6 @@
 .custom-carousel{ 
     height: 600px;
+    width: 100%;
 }
 
 .div{
@@ -8,7 +9,17 @@
 
 .carousel-image{
     height: 600px;
-    width: 1250px;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .custom-carousel{
+        height: 400px;
+    }
+
+    .carousel-image{
+        height: 400px;
+    }
 }
 
 .custom-img{
