@@ -28,5 +28,33 @@
     align-content: center;
     margin: 10px;
     margin-top: 80px;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
 
+.img-back{
+    background-image: url(resource/Banner.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.img-perfil{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    padding: 1px;
 }
