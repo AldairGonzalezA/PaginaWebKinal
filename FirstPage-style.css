@@ -1,0 +1,51 @@
+.custom-carousel{ 
+    height: 600px;
+    width: 100%;
+}
+
+.div{
+    margin: 20px;
+}
+
+.carousel-image{
+    height: 600px;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .custom-carousel{
+        height: 400px;
+    }
+
+    .carousel-image{
+        height: 400px;
+    }
+}
+
+.custom-img{
+    height: 350px;
+    width: 350px;
+    cursor: pointer;
+    margin: 25px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #28303F;
+    border-radius: 15px;
+}
+
+.nav-custom{
+    height: 40px;
+}
+
+.header-custom{
+    padding: 50px;
+    background-color: #28303F;
+}
+
+.div-custom{
+    background-color: #A58D70;
+}
+
+.custom-modal{
+    background-color: #D8D7DB;
+}

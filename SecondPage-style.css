@@ -1,0 +1,69 @@
+.hobbies{
+    top: 30%;
+    left: 0%;
+    width: 30%;
+    margin: 30px;
+    background-color: #008F8C;
+}
+
+.parrafo{
+    top: 50%;
+    left: 17%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.datos{
+    width: 50%;
+    margin: 30px;
+    background-color: #008F8C;
+}
+
+.div-principal{
+    display: flex;
+    margin: 0px;
+}
+
+.title{
+    text-align: center;
+    align-content: center;
+    margin: 10px;
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
+.img-back{
+    position: relative;
+    background-image: url(resource/Banner.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.img-perfil{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translateX(-50%);
+    height: 50%;
+    z-index: 10;
+    border-radius: 50%;
+    border-style: groove;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+    padding: 1px;
+}
+
+.principal{
+    opacity: 0;
+
+}
